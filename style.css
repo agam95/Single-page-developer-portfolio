@@ -1,0 +1,665 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.frontPage{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.patternRingIntro{
+    position: absolute;
+    left: -342px;
+    top: 86px;
+    z-index: -2;
+}
+
+
+.profileImage{
+    background-image: url("assets/images/image-profile-mobile.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 174px;
+    height: 383px;
+}
+
+.headNameSocial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+}
+
+
+.headName{
+    font-size: 24px;
+    width: 129px;
+    height:32px;
+    margin-top: 20px;
+}
+
+.socials{
+    width: 154px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.firstPageIntro{
+    text-align: center;
+    width: 343px;
+    height: 244px;
+    margin-top: 40px;
+}
+
+.intro , .name{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.name{
+    border-bottom: 2px solid green;
+}
+
+.shortIntro{
+    font-size: 16px;
+    color: grey;
+    margin-top: 24px;
+}
+
+.contactMe{
+    font-size: 16px;
+    width: 100%;
+    margin-top: 24px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.contactMe span{
+    border-bottom: 2px solid green;
+}
+
+
+
+.skills{
+    border-bottom: 1px solid #979797;
+    border-top: 1px solid #979797;
+    width: 345px;
+    height: 604px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.skillName{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.skillProgress{
+    font-size: 16px;
+    color: grey;
+}
+
+
+.projects {
+    width: 343px;
+    margin-top: 80px;
+}
+
+.projectHeading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projectHead{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.contactMeProject{
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 2px solid green;
+}
+
+.projectBody{
+    display: grid;
+    grid-template-columns: 343px;
+}
+
+.project{
+    height: 398px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.projectImage{
+    width: 100%;
+}
+
+.projectName{
+    font-size: 24px;
+}
+
+.projectTools{
+    font-size: 18px;
+    display: flex;
+}
+
+.toolTwo , .toolThree{
+    margin-left: 12px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 251px;
+    height: 38px;
+}
+
+
+
+.projectView , .projectCode{
+    outline: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 2px solid green;
+    text-decoration: none
+}
+
+.contactPage{
+    background-color: #242424;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.patternRingContact{
+    position: absolute;
+    top: 4615px;
+    left: -343px;
+}
+
+.contactBody{
+    margin-top: 50px;
+    width: 343px;
+    height: 515px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contactHead{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactHeading{
+    font-size: 40px;
+    font-weight: bold; 
+}
+
+.contactDescription{
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.nameForm , .emailForm{
+    border-bottom: 1px solid white;
+    height: 43px;
+}
+
+.messageForm{
+    height: 107px;
+    border-bottom: 1px solid white;
+}
+
+.error{
+    color: red;
+    text-align: end;
+    margin-top: 10px;
+    display: none;
+}
+
+
+.emailForm , .messageForm{
+    margin-top: 40px;
+}
+
+.nameForm input , .emailForm input , .messageForm input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background-color: #242424;
+    color: white;
+    font-size: 16px;
+}
+
+::placeholder { 
+    color: white;
+    font-size: 16px;
+  }
+
+.button{
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;  
+}
+
+.send{
+    border-bottom: 2px solid green;
+    height: 32px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.send:hover{
+    color: green;
+}
+
+.line{
+    border: 1px solid white;
+    width: 343px;
+    margin-top: 87px;
+}
+
+.end{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 154px;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.endName{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.endSocial{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.linksInImage{
+    display: none;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    .patternRingIntro{
+        left: -265px;
+        top: 86px;
+        z-index: -2;
+    }
+    
+    .patterncircleIntro{
+        top: 440px;
+        left: 702px;
+    }
+
+    .patternRingSkills{
+        top: 1047px;
+        left: 570px;
+    }
+
+    .patternRingContact{
+        position: absolute;
+        top: 3220px;
+        left: -368px;
+    }
+
+    .frontPage{
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-end;
+        text-align: left;
+    }
+
+    .profileImage{
+        background-image: url("assets/images/image-profile-tablet.webp");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right; 
+        background-position: top;
+        width: 322px;
+        height: 600px;
+    }
+
+    .headNameSocial{
+        flex-direction: row;
+        justify-content: space-between;
+        top: 0;
+        width: 708px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+
+
+    .firstPageIntro{
+        width: 490px;
+        height: 449px;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 40px;
+        position: relative;
+        left: 30px;
+        text-align: left;
+    }
+
+    .intro , .name{
+        font-size: 72px;
+    }
+
+    .shortIntro{
+        font-size: 18px;
+        width: 95%;
+    }
+
+    .contactMe{
+        align-self: flex-start;
+        margin-top: 80px;
+    }
+
+
+    .skills{
+        width: 708px;
+        height: 451px;
+        display: grid;
+        grid-template-columns: 345px 345px;
+        text-align: left;
+        border-bottom: none;
+    }
+
+    .projects {
+        width: 100%;
+        margin-top: 80px;
+    }
+
+    .projectHeading{
+        width: 708px;
+        margin: auto;
+    }
+
+    .projectBody{
+        grid-template-columns: 342px 342px;
+        column-gap: 24px;
+        width: 708px;
+        margin: auto;
+    }
+
+    .line{
+        display: none;
+    }
+
+    .contactHeading{
+        font-size: 72px;
+    }
+
+    .contactDescription{
+        font-size: 16px;
+        text-align: center;
+        width: 445px;
+        height: 84px;
+        margin-bottom: 50px;
+        margin-top: 20px;
+        color: grey;
+    }
+
+    .end{
+        margin-top: 150px;
+        margin-bottom: 40px;
+        width: 708.49px;
+        height: 63px;
+        flex-direction: row;
+        align-items: flex-end;
+        border-top: 1px solid white;
+
+    }
+
+    .endSocial{
+        width: 192.49px;
+    }
+
+    
+
+  }
+
+
+  @media only screen and (min-width: 1440px) {
+
+    .patternRingIntro{
+        left: -100px;
+        top: 133px;
+        z-index: -2;
+    }
+    
+    .patterncircleIntro{
+        top: 521px;
+        left: 786px;
+    }
+
+    .patternRingSkills{
+        top: 1010px;
+        left: 1177px;
+    }
+
+    .patternRingContact{
+        top: 3374px;
+        left: -205px;
+    }
+
+    .headNameSocial{
+        width: 1080.49px;
+    }
+
+    .profileImage{
+        background-image: url("assets/images/image-profile-desktop.webp");
+        width: 445px;
+        height: 720px;
+        position: relative;
+        right: 145px;
+    }
+
+    .shortIntro{
+        font-size: 18px
+    }
+    
+
+    .firstPageIntro{
+        width: 720px;
+        height: 303px;
+        left: -8px;
+        top: -220px;
+    }
+
+    .contactMe{
+        margin-top: 56px;
+    }
+
+
+    .skills{
+        width: 1110px;
+        height: 327px;
+        display: grid;
+        grid-template-columns: 345px 345px 345px;
+        text-align: left;
+        border-bottom: none;
+    }
+
+    .projects {
+        width: 100%;
+        margin-top: 80px;
+    }
+
+
+    .projectImageBox{
+        position: relative;
+    }
+
+    .projectImage{
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+
+    .linksInImage{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-between;
+        color: white;
+        height: 20%;
+        transition: .5s ease;
+        opacity: 0;
+    }
+
+    .projectImageBox:hover .projectImage {
+        opacity: 0.3;
+      }
+      
+    .projectImageBox:hover .linksInImage {
+        opacity: 1;
+      }
+
+
+    .linksInImage a{
+        color: white;
+        font-weight: bolder;
+        border-bottom: 3px solid green;
+        text-decoration: none;
+        padding-bottom: 5px;
+    }
+
+    .projectHeading{
+        width: 1110px;
+        margin: auto;
+    }
+
+    
+
+    .projectHead{
+        font-size: 88px;
+    }
+
+    .projectBody{
+        grid-template-columns: 540px 540px;
+        column-gap: 30px;
+        width: 1110px;
+        margin: auto;
+    }
+    
+    .project{
+        height: 487px;
+    }
+
+    .projectName , .projectTools{
+        margin-top: 15px;
+    }
+
+    .projectView , .projectCode{
+        display: none;
+    }
+
+
+    .contactHead{
+        width: 445px;
+        height: 208px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-top: 84px;
+    }
+
+    .contactHeading{
+        font-size: 88px;
+    }
+
+    .contactDescription{
+        text-align: left;
+        font-size: 18px;
+    }
+
+    .form{
+        width: 445px;
+        height: 327px;
+        margin-top: 84px;
+    }
+
+    .contactBody{
+        margin-top: 50px;
+        width: 1110px;
+        height: 327px;
+        display: flex;
+        flex-direction: row;
+        justify-content: none;
+    }
+
+    .line{
+        display: none;
+    }
+
+    .end{
+        margin-top: 200px;
+        margin-bottom: 40px;
+        width: 1110.49px;
+        height: 32px;
+        flex-direction: row;
+    }
+
+    .endSocial{
+        width: 192.49px;
+    }
+
+  }
+
+
+
